@@ -1,0 +1,65 @@
+header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family:fantasy;
+    color: rgb(157, 171, 203);
+    height: 60px;
+}
+body{
+    margin: 0 auto;
+    width: 1100px;
+}
+.submit{
+    margin-top: 15px;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(157, 171, 203);
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: '等线';
+    float: right;
+    margin-right: 10px;
+}
+.form{
+    border: 2px solid rgb(217, 223, 234);
+    border-radius:5px;
+    height: 28px;
+    width: 200px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: '等线';
+}
+#register{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 310px;
+    height: 305px;
+    border-style:outset;
+    border-color: rgb(217, 223, 234);
+    margin-left: 380px;
+}
+.gen{
+    height: 28px;
+    font-size: 15px;
+    font-family: '等线';
+    font-weight:600;
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#info{
+    /*font-size: 15px;*/
+    font-family: '等线';
+    font-weight:600;
+    height: 28px;
+}
+.hint{
+    font-size: 10px;
+    color: red;
+}
