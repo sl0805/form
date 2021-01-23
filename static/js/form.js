@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-23 12:12:43
- * @LastEditTime: 2021-01-23 12:12:44
+ * @LastEditTime: 2021-01-23 16:50:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \2020\前端第三轮\register_form\js\form.js
@@ -24,7 +24,7 @@ function _submit() {
         return ;
     }
     //验证昵称格式
-    var judge1=/^[^ ]$/;
+    var judge1=/^[^ ]+$/;
     if(!judge1.test(name))
     {
         alert("昵称不能包含空格！");
