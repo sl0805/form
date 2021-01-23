@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-23 11:01:12
- * @LastEditTime: 2021-01-23 12:19:25
+ * @LastEditTime: 2021-01-23 14:13:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \2020\前端第三轮\test.html
@@ -16,8 +16,10 @@
 </head>
 <body>
     <form id="register">
-        <label id="info">昵 称：</label>
-        <input placeholder="请输入昵称" id="name" class="form">
+        <div>
+            <label id="info">昵 称：</label>
+            <input placeholder="请输入昵称" id="name" class="form">
+        </div>
         <div class="gen" id="gender">
             <label>性 别：</label>
             <input type="radio" value="1" name="gender" id="man">
@@ -25,13 +27,19 @@
             <input type="radio" value="2" name="gender" id="woman">
             <label>女</label>
         </div>
-        <label id="info">手机号码：</label>
-        <input placeholder="请输入手机号码" id="tel" class="form">
-        <label id="info">密 码：</label>
-        <input placeholder="请输入密码" id="password" class="form">
+        <div>
+            <label id="info">手机号码：</label>
+            <input placeholder="请输入手机号码" id="tel" class="form">
+        </div>
+        <div>
+            <label id="info">密 码：</label>
+            <input placeholder="请输入密码" id="password" class="form">
+        </div>
         <div class="hint">(密码中要求出现大小写字母、至少出现2个数字、只能出现一次 #&*?@ (英文输入)中的一个)</div>
-        <label id="info">确认密码：</label>
-        <input placeholder="请再次输入密码" id="confirm_password" class="form">
+        <div>
+            <label id="info">确认密码：</label>
+            <input placeholder="请再次输入密码" id="confirm_password" class="form">
+        </div>
         <input class="submit" type="button" value="提交" onclick="_submit();">
     </form>
 </body>
